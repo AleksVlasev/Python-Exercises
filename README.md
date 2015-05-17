@@ -1,8 +1,3 @@
-# Project
-## Check
-### Check
-#### Check
-##### Check
-###### Nothing to see here
+# First Python Project
 
-Now let's see what will happen here
+#### Messing around with classes and stuff
