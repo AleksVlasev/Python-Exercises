@@ -18,12 +18,15 @@ def print_test(a, b):
 	c = RationalNumber(a, b).get_printable()
 	print("Inputting {} and {} leads to {}".format(a, b, c))
 
-def add_rational(a, b):
-	num = a.numerator * b.denominator + b.numerator * a.denominator
+def multiply_rationals(a, b):
+	num = a.numerator * b.numerator
 	den = a.denominator * b.denominator
 	return RationalNumber(num, den)
 
-
+def add_rationals(a, b):
+	num = a.numerator * b.denominator + b.numerator * a.denominator
+	den = a.denominator * b.denominator
+	return RationalNumber(num, den)
 
 class RationalNumber(object):
 	# Need to add a check that denominator is not zero
@@ -52,9 +55,11 @@ print("Here we'll test some inputs and see if we get what we would expect\n")
 # print_test(0, 6)
 # print_test(6, 0)
 
-# numA = RationalNumber(3, 5)
-# numB = RationalNumber(8, 0)
-# numC = add_rational(numA, numB)
-# print(numC.get_printable())
+numA = RationalNumber(3, 5)
+numB = RationalNumber(8, -3)
+numC = add_rationals(numA, numB)
+numD = multiply_rationals(numA, numB)
+print(numC.get_printable())
+print(numD.get_printable())
 
 
