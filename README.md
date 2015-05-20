@@ -9,7 +9,7 @@ This is a repo for Python exercises that I work on while learning the ins and ou
 3. Obtain good habits in writing code (naming of variables and functions, flow of code)
 4. Obtain good habits in using version control to aid my work.
 
-Here are some of the exercises I've gone through so far.
+##### Exercise goals
 
 1. Rational Numbers - implementing a simple class for manipulating exact rational numbers. The goal here is to use objects in a simple way, writing methods for them and writing functions for combining such objects.
 2. Exercise Hours - implementing a simple menu, using a dictionary, input/output from/to file.
