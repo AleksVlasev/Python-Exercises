@@ -17,7 +17,7 @@ Nevertheless it's a useful scrip that allows be to cut my work by a factor of 2 
 # 		num += 1
 
 for filename in os.listdir("."):
-	if filename.endswith(".pdf"):
+	if filename.endswith(".pdf"):  # Only pick out the pdfs
 		file = open(filename, "rb")
 		try:
 			input1 = PdfFileReader(file)

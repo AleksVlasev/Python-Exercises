@@ -9,7 +9,9 @@ This is a repo for Python exercises that I work on while learning the ins and ou
 3. Obtain good habits in writing code (naming of variables and functions, flow of code)
 4. Obtain good habits in using version control to aid my work.
 
-##### Exercise goals
+##### Exercises
 
-1. Rational Numbers - implementing a simple class for manipulating exact rational numbers. The goal here is to use objects in a simple way, writing methods for them and writing functions for combining such objects.
-2. Exercise Hours - implementing a simple menu, using a dictionary, input/output from/to file.
+1. RationalNumbers - implementing a simple class for manipulating exact rational numbers. The goal here is to use objects in a simple way, writing methods for them and writing functions for combining such objects.
+2. ExerciseHours - implementing a simple menu, using a dictionary, input/output from/to file.
+3. RenamePDFs - script to automatically read pdf titles and rename the file using the title.
+4. FizzExtended - just-for-fun implementation of a more general Fizz-Buzz-like procedure
